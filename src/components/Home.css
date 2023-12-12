@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home__body{
+    flex:1;
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+}
+.home__body>img{
+    object-fit: contain;
+    height: 100px;
+}
